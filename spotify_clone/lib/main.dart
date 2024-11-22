@@ -10,6 +10,7 @@ class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
+  // This is the main app
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Mobile Music Player',
